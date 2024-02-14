@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'PixelFont';
+    src: url('minecraft.ttf') format('truetype');
+    /* You can include additional formats like WOFF, WOFF2, etc. for better browser support */
+  }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'PixelFont', Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.5s ease;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  #container {
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: center; /* Center vertically */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  #basketball {
+    width: 210px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  #heart {
+    display: none;
+    width: 80px;
+    height: auto;
+    transition: transform 0.5s ease;
+    text-align: center;
+  }
+
+  #vern {
+    display: none;
+    width: auto;
+    height: 50vh;
+    transition: transform 0.5s ease;
+    text-align: center;
+  }
